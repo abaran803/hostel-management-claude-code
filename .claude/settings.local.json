@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(find /c/Users/abara/Desktop/hostel-management -maxdepth 2 -name \".*\" -type f 2>/dev/null | grep -v node_modules)"
+      "Bash(find /c/Users/abara/Desktop/hostel-management -maxdepth 2 -name \".*\" -type f 2>/dev/null | grep -v node_modules)",
+      "Bash(cd /c/Users/abara/Desktop/hostel-management/backend && npm install bcryptjs jsonwebtoken)",
+      "Bash(node seed-admin.js)",
+      "Bash(git add:*)"
     ]
   }
 }

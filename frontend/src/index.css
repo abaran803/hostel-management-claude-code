@@ -21,6 +21,7 @@ body {
   color: #fff;
   padding: 0;
   flex-shrink: 0;
+  position: relative;
 }
 
 .sidebar-brand {
@@ -260,4 +261,100 @@ tr:hover td { background: #f8fafc; }
   text-align: center;
   padding: 40px;
   color: #64748b;
+}
+
+/* Login page */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f2f5;
+}
+
+.login-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.login-brand {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 8px;
+}
+
+.login-brand span {
+  color: #2563eb;
+}
+
+.login-card h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #64748b;
+  margin-bottom: 28px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 11px;
+  font-size: 0.95rem;
+  margin-top: 4px;
+}
+
+.auth-switch {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.88rem;
+  color: #64748b;
+}
+
+.auth-switch a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-switch a:hover {
+  text-decoration: underline;
+}
+
+/* Sidebar footer */
+.sidebar-footer {
+  position: absolute;
+  bottom: 0;
+  width: 240px;
+  padding: 16px 20px;
+  border-top: 1px solid #334155;
+  background: #0f172a;
+}
+
+.sidebar-user {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.btn-logout {
+  width: 100%;
+  padding: 8px;
+  background: #334155;
+  color: #cbd5e1;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+
+.btn-logout:hover {
+  background: #dc2626;
+  color: #fff;
 }
