@@ -4,7 +4,9 @@
       "Bash(find /c/Users/abara/Desktop/hostel-management -maxdepth 2 -name \".*\" -type f 2>/dev/null | grep -v node_modules)",
       "Bash(cd /c/Users/abara/Desktop/hostel-management/backend && npm install bcryptjs jsonwebtoken)",
       "Bash(node seed-admin.js)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(docker compose:*)",
+      "Bash(curl -s -X POST http://localhost:5173/api/auth/login -H \"Content-Type: application/json\" -d '{\"\"email\"\":\"\"test@test.com\"\",\"\"password\"\":\"\"test\"\"}')"
     ]
   }
 }
